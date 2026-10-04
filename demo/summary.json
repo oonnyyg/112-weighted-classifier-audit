@@ -1,0 +1,29 @@
+{
+  "costs": {
+    "false_positive": 1.0,
+    "false_negative": 1.0
+  },
+  "threshold": 0.6,
+  "threshold_rule": "0.6",
+  "validation": {
+    "size": 3,
+    "weighted_cost": 0.0
+  },
+  "test": {
+    "size": 3,
+    "confusion": {
+      "true_positive": 1.0,
+      "false_positive": 2.0,
+      "true_negative": 1.0,
+      "false_negative": 0.0
+    },
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "f1_note": null,
+    "roc_auc": 1.0,
+    "roc_auc_note": null,
+    "brier_score": 0.25749999999999995,
+    "total_cost": 2.0
+  }
+}
